@@ -24,11 +24,13 @@ module.exports = function(grunt) {
         site: '<%= site %>',
         assets: '_gh_pages/assets',
         partials: ['templates/includes/*.hbs'],
-        // plugins: ['assemble-contrib-anchors'],
         layouts: 'templates/layouts',
         postprocess: pretty
       },
       example: {
+        options: {
+          plugins: ['assemble-contrib-anchors'],
+        },
         files: {'_gh_pages/': ['templates/*.hbs']}
       }
     },
