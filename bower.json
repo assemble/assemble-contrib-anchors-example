@@ -1,0 +1,6 @@
+{
+  "name": "example-assemble-anchor",
+  "dependencies": {
+    "bootstrap": "twitter/bootstrap"
+  }
+}
