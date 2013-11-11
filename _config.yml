@@ -4,7 +4,7 @@ dest: <%= site.root %>
 
 
 # Site metadata
-brand: ASSEMBLE
+brand: Assemble
 title: Assemble
 lead: The most awe inspiring website in Northern Kentucky.
 description: >
@@ -17,6 +17,7 @@ license:
 
 # URLs
 repo: https://github.com/assemble/assemble
+blog: http://assemble.io/blog/
 download:
   source: https://github.com/assemble/assemble/archive/master.zip
 
