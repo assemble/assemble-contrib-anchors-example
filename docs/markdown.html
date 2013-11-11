@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="assets/assemble.css">
     <link rel="stylesheet" href="assets/github.css">
   </head>
-  <body >
+  <body>
 
     
     
@@ -14,7 +14,7 @@
 <div class="navbar  navbar-fixed-top">
   <div class="navbar-inner">
     <div class="container">
-      <button class="navbar-toggle btn btn-navbar" type="button" data-toggle="collapse" data-target="nav-collapse">
+      <button data-toggle="collapse" data-target="nav-collapse" class="navbar-toggle btn btn-navbar" type="button">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -50,8 +50,14 @@
         
 <h1>Markdown</h1>
 
-  <h1 id="typography">Typography</h1>
-<h2 id="headings">Headings</h2>
+  <h1 id="typography">Typography<a name="typography" class="anchor" href="#typography">
+  <span class="glyphicon glyphicon-link"></span>
+</a>
+</h1>
+<h2 id="headings">Headings<a name="headings" class="anchor" href="#headings">
+  <span class="glyphicon glyphicon-link"></span>
+</a>
+</h2>
 <p>Headings from <code>h1</code> through <code>h6</code> are constructed with a <code>#</code> for each level:</p>
 <pre><code class="language-markdown"><span class="header"># h1 Heading</span>
 <span class="header">## h2 Heading</span>
@@ -60,10 +66,22 @@
 <span class="header">##### h5 Heading</span>
 <span class="header">###### h6 Heading</span></code></pre>
 <p>Renders to:</p>
-<h1 id="h1-heading">h1 Heading</h1>
-<h2 id="h2-heading">h2 Heading</h2>
-<h3 id="h3-heading">h3 Heading</h3>
-<h4 id="h4-heading">h4 Heading</h4>
+<h1 id="h1-heading">h1 Heading<a name="h1-heading" class="anchor" href="#h1-heading">
+  <span class="glyphicon glyphicon-link"></span>
+</a>
+</h1>
+<h2 id="h2-heading">h2 Heading<a name="h2-heading" class="anchor" href="#h2-heading">
+  <span class="glyphicon glyphicon-link"></span>
+</a>
+</h2>
+<h3 id="h3-heading">h3 Heading<a name="h3-heading" class="anchor" href="#h3-heading">
+  <span class="glyphicon glyphicon-link"></span>
+</a>
+</h3>
+<h4 id="h4-heading">h4 Heading<a name="h4-heading" class="anchor" href="#h4-heading">
+  <span class="glyphicon glyphicon-link"></span>
+</a>
+</h4>
 <h5 id="h5-heading">h5 Heading</h5>
 <h6 id="h6-heading">h6 Heading</h6>
 <p>HTML:</p>
@@ -76,7 +94,10 @@
 <p><br>
 <br>
 <br></p>
-<h2 id="body-copy">Body Copy</h2>
+<h2 id="body-copy">Body Copy<a name="body-copy" class="anchor" href="#body-copy">
+  <span class="glyphicon glyphicon-link"></span>
+</a>
+</h2>
 <p>Body copy written as normal, plain text will be wrapped with <code>&lt;p&gt;&lt;/p&gt;</code> tags in the rendered HTML.</p>
 <p>So this body copy:</p>
 <pre><code class="language-markdown">Lorem ipsum dolor sit amet, graecis denique ei vel, at duo primis mandamus. Et legere ocurreret pri, animal tacimates complectitur ad cum. Cu eum inermis inimicus efficiendi. Labore officiis his ex, soluta officiis concludaturque ei qui, vide sensibus vim ad.</code></pre>
@@ -85,14 +106,23 @@
 <p><br>
 <br>
 <br></p>
-<h2 id="emphasis">Emphasis</h2>
-<h3 id="bold">Bold</h3>
+<h2 id="emphasis">Emphasis<a name="emphasis" class="anchor" href="#emphasis">
+  <span class="glyphicon glyphicon-link"></span>
+</a>
+</h2>
+<h3 id="bold">Bold<a name="bold" class="anchor" href="#bold">
+  <span class="glyphicon glyphicon-link"></span>
+</a>
+</h3>
 <p>For emphasizing a snippet of text with a heavier font-weight.</p>
 <p>The following snippet of text is <strong>rendered as bold text</strong>.</p>
 <pre><code class="language-markdown"><span class="strong">**rendered as bold text**</span></code></pre>
 <p>and this HTML</p>
 <pre><code class="language-html">&lt;strong&gt;rendered as bold text&lt;/strong&gt;</code></pre>
-<h3 id="italics">Italics</h3>
+<h3 id="italics">Italics<a name="italics" class="anchor" href="#italics">
+  <span class="glyphicon glyphicon-link"></span>
+</a>
+</h3>
 <p>For emphasizing a snippet of text with italics.</p>
 <p>The following snippet of text is <em>rendered as italicized text</em>.</p>
 <pre><code class="language-markdown"><span class="emphasis">_rendered as italicized text_</span></code></pre>
@@ -101,7 +131,10 @@
 <p><br>
 <br>
 <br></p>
-<h2 id="blockquotes">Blockquotes</h2>
+<h2 id="blockquotes">Blockquotes<a name="blockquotes" class="anchor" href="#blockquotes">
+  <span class="glyphicon glyphicon-link"></span>
+</a>
+</h2>
 <p>For quoting blocks of content from another source within your document.</p>
 <p>Add <code>&gt;</code> before any text you want to quote. </p>
 <pre><code class="language-markdown">Add <span class="code">`&gt;`</span> before any text you want to quote.</code></pre>
@@ -136,8 +169,14 @@ Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi. </p>
 <p><br>
 <br>
 <br></p>
-<h2 id="lists">Lists</h2>
-<h3 id="unordered">Unordered</h3>
+<h2 id="lists">Lists<a name="lists" class="anchor" href="#lists">
+  <span class="glyphicon glyphicon-link"></span>
+</a>
+</h2>
+<h3 id="unordered">Unordered<a name="unordered" class="anchor" href="#unordered">
+  <span class="glyphicon glyphicon-link"></span>
+</a>
+</h3>
 <p>A list of items in which the order does not explicitly matter.</p>
 <pre><code class="language-markdown"><span class="bullet">* </span>Lorem ipsum dolor sit amet
 <span class="bullet">* </span>Consectetur adipiscing elit
@@ -186,7 +225,10 @@ Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi. </p>
   &lt;li&gt;Aenean sit amet erat nunc&lt;/li&gt;
   &lt;li&gt;Eget porttitor lorem&lt;/li&gt;
 &lt;/ul&gt;</code></pre>
-<h3 id="ordered">Ordered</h3>
+<h3 id="ordered">Ordered<a name="ordered" class="anchor" href="#ordered">
+  <span class="glyphicon glyphicon-link"></span>
+</a>
+</h3>
 <p>A list of items in which the order does explicitly matter.</p>
 <pre><code class="language-markdown"><span class="bullet">1. </span>Lorem ipsum dolor sit amet
 <span class="bullet">2. </span>Consectetur adipiscing elit
@@ -221,12 +263,21 @@ Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi. </p>
 <p><br>
 <br>
 <br></p>
-<h2 id="code">Code</h2>
-<h3 id="inline-code">Inline code</h3>
+<h2 id="code">Code<a name="code" class="anchor" href="#code">
+  <span class="glyphicon glyphicon-link"></span>
+</a>
+</h2>
+<h3 id="inline-code">Inline code<a name="inline-code" class="anchor" href="#inline-code">
+  <span class="glyphicon glyphicon-link"></span>
+</a>
+</h3>
 <p>Wrap inline snippets of code with <code>` </code>.</p>
 <p>For example, <code>&lt;section&gt;&lt;/section&gt;</code> should be wrapped as &quot;inline&quot;.</p>
 <pre><code class="language-html">For example, `&lt;section&gt;&lt;/section&gt;` should be wrapped as &quot;inline&quot;.</code></pre>
-<h3 id="indented-code">Indented code</h3>
+<h3 id="indented-code">Indented code<a name="indented-code" class="anchor" href="#indented-code">
+  <span class="glyphicon glyphicon-link"></span>
+</a>
+</h3>
 <p>Or indent several lines of code by at least four spaces, as in:</p>
 <pre><code class="language-js">    <span class="comment">// Some comments</span>
     line <span class="number">1</span> of code
@@ -236,7 +287,10 @@ Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi. </p>
 line 1 of code
 line 2 of code
 line 3 of code</code></pre>
-<h3 id="block-code-fences-">Block code &quot;fences&quot;</h3>
+<h3 id="block-code-fences-">Block code &quot;fences&quot;<a name="block-code-fences-" class="anchor" href="#block-code-fences-">
+  <span class="glyphicon glyphicon-link"></span>
+</a>
+</h3>
 <p>Use &quot;fences&quot;  <code>``` </code> to block in multiple lines of code. </p>
 <pre>
 ``` html
@@ -250,7 +304,10 @@ Sample text here...
 <pre><code class="language-html">&lt;pre&gt;
   &lt;p&gt;Sample text here...&lt;/p&gt;
 &lt;/pre&gt;</code></pre>
-<h3 id="syntax-highlighting">Syntax highlighting</h3>
+<h3 id="syntax-highlighting">Syntax highlighting<a name="syntax-highlighting" class="anchor" href="#syntax-highlighting">
+  <span class="glyphicon glyphicon-link"></span>
+</a>
+</h3>
 <p>GFM, or &quot;GitHub Flavored Markdown&quot; also supports syntax highlighting. To activate it, simply add the file extension of the language you want to use directly after the first code &quot;fence&quot;, <code>``` js</code>, and syntax highlighting will automatically be applied in the rendered HTML. For example, to apply syntax highlighting to JavaScript code:</p>
 <pre>
 ``` javascript
@@ -317,7 +374,10 @@ grunt.initConfig({
 <p><br>
 <br>
 <br></p>
-<h2 id="tables">Tables</h2>
+<h2 id="tables">Tables<a name="tables" class="anchor" href="#tables">
+  <span class="glyphicon glyphicon-link"></span>
+</a>
+</h2>
 <p>Tables are created by adding pipes as dividers between each cell, and by adding a line of dashes (also separated by bars) beneath the header. Note that the pipes do not need to be vertically aligned.</p>
 <pre><code class="language-markdown">| Option | Description |
 | ------ | ----------- |
@@ -366,7 +426,10 @@ grunt.initConfig({
     &lt;td&gt;extension to be used for dest files.&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;</code></pre>
-<h3 id="right-aligned-text">Right aligned text</h3>
+<h3 id="right-aligned-text">Right aligned text<a name="right-aligned-text" class="anchor" href="#right-aligned-text">
+  <span class="glyphicon glyphicon-link"></span>
+</a>
+</h3>
 <p>Adding a colon on the right side of the dashes below any heading will right align text for that column.</p>
 <pre><code class="language-markdown">| Option | Description |
 | ------:| -----------:|
@@ -398,14 +461,23 @@ grunt.initConfig({
 <p><br>
 <br>
 <br></p>
-<h2 id="links">Links</h2>
-<h3 id="basic-link">Basic link</h3>
+<h2 id="links">Links<a name="links" class="anchor" href="#links">
+  <span class="glyphicon glyphicon-link"></span>
+</a>
+</h2>
+<h3 id="basic-link">Basic link<a name="basic-link" class="anchor" href="#basic-link">
+  <span class="glyphicon glyphicon-link"></span>
+</a>
+</h3>
 <pre><code class="language-markdown"><span class="link_label">[Assemble]</span>(<span class="link_url">http://assemble.io</span>)</code></pre>
 <p>Renders to:</p>
 <p><a href="http://assemble.io">Assemble</a></p>
 <p>HTML:</p>
 <pre><code class="language-html">&lt;a href=&quot;http://assemble.io&quot;&gt;Assemble&lt;/a&gt;</code></pre>
-<h3 id="add-a-title">Add a title</h3>
+<h3 id="add-a-title">Add a title<a name="add-a-title" class="anchor" href="#add-a-title">
+  <span class="glyphicon glyphicon-link"></span>
+</a>
+</h3>
 <pre><code class="language-markdown"><span class="link_label">[Upstage]</span>(<span class="link_url">https://github.com/upstage/ "Visit Upstage!"</span>)</code></pre>
 <p>Renders to:</p>
 <p><a href="https://github.com/upstage/" title="Visit Upstage!">Upstage</a></p>
@@ -414,7 +486,10 @@ grunt.initConfig({
 <p><br>
 <br>
 <br></p>
-<h2 id="images">Images</h2>
+<h2 id="images">Images<a name="images" class="anchor" href="#images">
+  <span class="glyphicon glyphicon-link"></span>
+</a>
+</h2>
 <p>Images have a similar syntax to links but include a preceding exclamation point.</p>
 <pre><code class="language-markdown">!<span class="link_label">[Minion]</span>(<span class="link_url">http://octodex.github.com/images/minion.png</span>)</code></pre>
 <p><img src="http://octodex.github.com/images/minion.png" alt="Minion"></p>

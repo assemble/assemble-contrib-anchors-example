@@ -32,6 +32,7 @@ module.exports = function(grunt) {
         assets: 'docs/assets',
         partials: ['src/includes/*.hbs'],
         helpers: ['src/helpers/helper-*.js'],
+        plugins: ['../assemble-anchor'],
         layout: 'src/layouts/default.hbs',
         data: ['src/data/*.{json,yml}', 'package.json']
       },
