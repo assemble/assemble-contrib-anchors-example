@@ -1,47 +1,41 @@
 {
-  "name": "example-assemble-anchor",
-  "description": "Example of using the Assemble plugin assemble-anchor",
-  "version": "0.0.1",
-  "homepage": "https://github.com/assemble/example-assemble-anchor",
+  "name": "example-assemble-anchors",
+  "description": "Shows how to generate a Table of Contents with assemble-contrib-anchors",
+  "version": "0.1.0",
+  "homepage": "https://github.com/assemble/example-assemble-anchors",
   "author": {
-    "name": "Brian Woodward"
+    "name": "Brian Woodward",
+    "url": "https://github.com/doowb"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/assemble/example-assemble-anchor.git"
+    "url": "https://github.com/assemble/example-assemble-anchors.git"
   },
   "bugs": {
-    "url": "https://github.com/assemble/example-assemble-anchor/issues"
+    "url": "https://github.com/assemble/example-assemble-anchors/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/assemble/example-assemble-anchor/blob/master/LICENSE-MIT"
+      "url": "https://github.com/assemble/example-assemble-anchors/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "Gruntfile.js",
-  "scripts": {
-    "test": "grunt test"
-  },
   "devDependencies": {
-    "assemble": "~0.4.0",
-    "assemble-less": "~0.5.3",
-    "assemble-anchor": "~0.0.1",
-    "grunt-contrib-clean": "~0.4.1",
-    "grunt-contrib-jshint": "~0.6.0",
-    "grunt-contrib-watch": "~0.5.1",
-    "grunt-prettify": "~0.1.5",
-    "grunt": "~0.4.1"
+    "assemble": "~0.4.22",
+    "assemble-contrib-anchors": "~0.0.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "handlebars-helper-pkg": "~0.1.0",
+    "pretty": "~0.1.1"
   },
   "keywords": [
-    "grunt task",
-    "build",
-    "handlebars helper",
-    "underscore mixin",
-    "site generator",
-    "component generator",
     "blog generator",
+    "component generator",
+    "grunt static site generator",
     "handlebars",
-    "templates"
+    "handlebars-helper-pkg",
+    "site generator",
+    "static site generator",
+    "templates",
+    "yeoman static site generator"
   ]
 }
