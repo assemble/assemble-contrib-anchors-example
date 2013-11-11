@@ -1,6 +1,7 @@
 # example-assemble-anchors [![NPM version](https://badge.fury.io/js/example-assemble-anchors.png)](http://badge.fury.io/js/example-assemble-anchors)
 
-> The best project ever.
+> Usage examples for assemble-contrib-anchors, an Assemble plugin for generating a HTML Table of Contents
+
 
 ## Quick start
 
@@ -18,7 +19,6 @@ Please read through the [contributing guidelines](CONTRIBUTING.md). In lieu of a
 Editor preferences are available in the [editor config](.editorconfig) for easy use in common text editors. Read more and download plugins at [http://editorconfig.org](http://editorconfig.org).
 
 ## Release History
-
  * 2013   v0.1.0   First commit
 
 ## License

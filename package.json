@@ -1,7 +1,7 @@
 {
   "name": "example-assemble-anchors",
-  "description": "Shows how to generate a Table of Contents with assemble-contrib-anchors",
-  "version": "0.1.0",
+  "description": "Usage examples for assemble-contrib-anchors, an Assemble plugin for generating a HTML Table of Contents.",
+  "version": "0.1.1",
   "homepage": "https://github.com/assemble/example-assemble-anchors",
   "author": {
     "name": "Brian Woodward",
